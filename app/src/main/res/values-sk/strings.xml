@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Žltý Odchytávač</string>
+    <string name="app_name1">- ŽLTÝ ODCHYTÁVAČ -</string>
+    <string name="saved_routes">- ULOŽENÉ TRASY -</string>
+    <string name="founded_routes">- NÁJDENÉ TRASY -</string>
+
+    <string name="travel_from">Cestujem z:</string>
+    <string name="travel_to">Cestujem do:</string>
+    <string name="enter_target">Zadaj miesto príjazdu...</string>
+    <string name="enter_start_point">Zadaj miesto odjazdu...</string>
+    <string name="date_of_road">Dátum cesty:</string>
+    <string name="currency">Mena:</string>
+    <string name="tarif">Tarifa:</string>
+    <string name="save">ULOŽIŤ \nSPOJ</string>
+    <string name="already_saved_lb">ULOŽENÉ</string>
+    <string name="buy">KÚPIŤ</string>
+    <string name="delete">VYMAZAŤ</string>
+    <string name="lower_price">Cena od</string>
+    <string name="from">Z:</string>
+    <string name="to">DO:</string>
+    <string name="day">DEŇ:</string>
+    <string name="saved_routes_menu">Uložené Trasy</string>
+    <string name="loading">Sťahujem potrebné dáta!</string>
+    <string name="error_network">Chyba internetového pripojenia!</string>
+    <string name="no_route_selected">Nevybrali Ste stanicu prichodu alebo odchodu!</string>
+    <string name="no_routes">Neboli nájdené žiadne spoje!</string>
+    <!--vysklonovane vonlny listok-->
+    <string name="empty_seats1">voľný lístok</string>
+    <string name="empty_seats2">voľné lístky</string>
+    <string name="empty_seats3">voľných lístkov</string>
+    <string name="no_route_founded">Nenašli sa žiadne spoje!</string>
+    <string name="saved">Uložené!</string>
+    <string name="already_saved">Spoj bol už uložený!</string>
+    <string name="lb_last_finding_routes">POSLEDNÉ HĽADANÉ SPOJE</string>
+    <string name="no_last_route">Zatiaľ Ste nevyhľadali žiaden spoj!</string>
+    <string name="use">POUŽIŤ</string>
+    <string name="ticket">- LÍSTOK JE K DISPOZÍCII -</string>
+    <string name="buy_ticket">KÚPIŤ LÍSTOK</string>
+    <string name="not_now">TERAZ NIE</string>
+    <string name="route">TRASA</string>
+    <string name="when">KEDY</string>
+    <string name="empty_seats_ticket">VOĽNÉ MIESTA</string>
+    <string name="sold_out">Vypredané</string>
+    <string name="non_exist_route">Spoj neexistuje!</string>
+    <!--vysklonovane slovo miesto-->
+    <string name="seat1">miesto</string>
+    <string name="seat2">miesta</string>
+    <string name="seat3">miest</string>
+    <string name="ups">Uups... Omeškal si!</string>
+    <string name="apology">Je nám ľúto ale žiadny spoj sme dnes nenašli.</string>
+    <string name="lb_please_select_stations">Zvolte stanicu, prosím!</string>
+
+    <string name="lb_about">- O APLIKÁCII -</string>
+    <string name="credits_how_to_use">AKO MA POUŽÍVAŤ</string>
+    <string name="credits_how_to_use_text">Často sa stáva, že niektoré spoje, najmä na vyťažených trasach bývaju u prepravcu RegioJet vypredané. Táto alikácia plní jednoduchú úlohu, odchytí Vám lístok. \n\n Po zadaní trasy Vám vyhľadá spojenia. Váš preferovaný spoj si môžete uložiť. Ak je vlak vypredaný, aplikácia Vám zašle notifikáciu v prípade, že sa lístok uvolní. Ak spoj nie je vypredaný, notifikácia Vám príde, keď počet lístkov klesne pod určenú hranicu.\n\n  Aplikácia neplní funkciu rezervácie lístkov, je len informačného charakteru a vznikla nezavisle od spoločnosti RegioJet. Veríme, že Vám aplikácia bude nápomocná</string>
+    <string name="credits_creators">TVORCOVIA</string>
+    <string name="credits_ios_backend">iOS/back-end:</string>
+    <string name="credits_android">Android:</string>
+    <string name="credits_idea_design">Idea/Design:</string>
+    <string name="credits_patrik">Patrik Dendis</string>
+    <string name="credits_marek">Marek Marušin</string>
+    <string name="credits_gojo">Gorazd Ratulovský</string>
+    <string name="credits_errors">V prípade, že nájdete chybu, máte návrh na vylepšenie alebo alebo máte záujem o aplikáciu, budeme radi ak nás kontaktujete.</string>
+    <string name="contact_us">KONTAKTUJTE NÁS</string>
+    <string name="credits_version">Verzia:</string>
+    <string name="credits_not_available">K dispozici v příští aktualizaci!</string>
+
+    <string name="lb_soldout">Vypredané!</string>
+    <string name="unavailable_ticket">ŽIAL, LÍSTOK NIE JE DOSTUPNÝ</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFDC0F</color>
+    <color name="colorPrimaryDark">#DDBD06</color>
+    <color name="colorAccent">#0CD457</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="colorPrimaryResult">#211D33</color>
+    <color name="colorPrimaryDarkResult">#211D33</color>
+    <color name="colorAccentReuslt">#FFFFFF</color>
+
+    <color name="search_background">#1D192F</color>
+    <color name="texts_in_inputs">#9D95B9</color>
+    <color name="input_background">#0F0B1D</color>
+    <color name="borders_of_inputs">#79709B</color>
+    <color name="lb_last_finding_routes">#453F63</color>
+
+
+    <color name="filter_selected_item">#D8E8DE</color>
+    <color name="bus_icon_background">#E0E0E0</color>
+
+    <color name="screen_background_holo_light">#fff3f3f3</color>
+
+    <color name="use_label_text_color">#767676</color>
+
+    <color name="sold_out_background">#F3E3E5</color>
+    <color name="sold_out_text_color">#D0021B</color>
+
+    <color name="input_background_transparent">#990F0B1D</color>
+
+    <color name="buy_button_disabled">#990CD457</color>
+    <color name="buy_button_disabled_text">#99000000</color>
+
+</resources>

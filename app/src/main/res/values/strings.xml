@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Yellow catcher</string>
+    <string name="app_name1">- YELLOW CATCHER -</string>
+    <string name="saved_routes">- FOUND CONNECTIONS -</string>
+    <string name="founded_routes">- SAVED ROUTES -</string>
+    <string name="lb_about">-ABOUT APP -</string>
+
+    <string name="travel_from">Travelling from:</string>
+    <string name="travel_to">Travelling to :</string>
+    <string name="enter_target">Enter your destination...</string>
+    <string name="enter_start_point">Enter your place of departure...</string>
+    <string name="date_of_road">Outbound date:</string>
+    <string name="currency">Currency:</string>
+    <string name="tarif">Tariff:</string>
+    <string name="save">SAVE THE \nCONNECTION</string>
+    <string name="already_saved_lb">ROUTE SAVED</string>
+    <string name="buy">BUY</string>
+    <string name="delete">DELETE</string>
+    <string name="lower_price">Price from</string>
+    <string name="from">FROM:</string>
+    <string name="to">TO:</string>
+    <string name="day">DAY:</string>
+    <string name="saved_routes_menu">Saved routes</string>
+    <string name="loading">Downloading data!</string>
+    <string name="error_network">Connection error!</string>
+    <string name="no_route_selected">You have no arrival or departure!</string>
+    <string name="no_routes">No routes found!</string>
+    <!--vysklonovane vonlny listok-->
+    <string name="empty_seats1">available ticket</string>
+    <string name="empty_seats2">available tickets</string>
+    <string name="empty_seats3">available tickets</string>
+    <string name="no_route_founded">No routes found!</string>
+    <string name="saved">Saved!</string>
+    <string name="already_saved">Route already exists!</string>
+    <string name="lb_last_finding_routes">RECENT CONNECTION SEARCHES</string>
+    <string name="no_last_route">Please select connection!</string>
+    <string name="use">USE</string>
+    <string name="ticket">- TICKET IS AVAILABLE -</string>
+    <string name="buy_ticket">BUY TICKET</string>
+    <string name="not_now">NOT NOW</string>
+    <string name="route">ROUTE</string>
+    <string name="when">WHEN</string>
+    <string name="empty_seats_ticket">AVAILABLE TICKETS</string>
+    <string name="sold_out">Sold Out</string>
+    <string name="non_exist_route">Route does not exists!</string>
+    <!--vysklonovane slovo miesto-->
+    <string name="seat1">seat</string>
+    <string name="seat2">seats</string>
+    <string name="seat3">seats</string>
+    <string name="ups">Uups... You Missed!</string>
+    <string name="apology">We are sorry but we have no connection found today.</string>
+    <string name="lb_please_select_stations">Select station please!</string>
+    <string name="contact_us">CONTACT US</string>
+    <string name="credits_android">Android:</string>
+    <string name="credits_creators">CREATORS</string>
+    <string name="credits_errors">In case you find a bug, have a suggestion for improvement or you have interest about the app, we will be happy if you contact us.</string>
+    <string name="credits_gojo">Gorazd\nRatulovský</string>
+    <string name="credits_how_to_use">HOW TO USE ME</string>
+    <string name="credits_idea_design">Idea/Design:</string>
+    <string name="credits_ios_backend">iOS/back-end:</string>
+    <string name="credits_marek">Marek\nMarušin</string>
+    <string name="credits_patrik">Patrik\nDendis</string>
+    <string name="credits_how_to_use_text">Tickets for some of the trains belonging to the private company Regiojet are often completely sold out. This application fulfils an easy task which is to get you a ticket. All it takes is to enter the destination and time of your journey. After that the application finds you all of the possible train connections. You can easily save the preferred connection by clicking the “save” button.\n\nAfter that it is all in the hands of the application. If the train connection is sold out, the application sends you a notification whenever a ticket becomes available for the preferred connections. If the preferred train connection is not completely sold out, the application notifies you whenever the number of available tickets drops down below a certain number.\n\nThe application does not fulfil the function of ticket reservation, however. It is only of an informative character and it was developed independently of the Regiojet company. We hope that you will find this application useful.</string>
+    <string name="credits_version">Version:</string>
+    <string name="credits_not_available">Available in next update!</string>
+
+    <string name="lb_soldout">Sold out!</string>
+    <string name="unavailable_ticket">UNFORTUNATELY, THE TICKET IS NOT AVAILABLE</string>
+
+
+</resources>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".results.Results">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/founded_routes"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:id="@+id/toolbar_title" />
+
+            <ProgressBar
+                android:id="@+id/action_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminateTintMode="src_in"
+                android:layout_gravity="right"
+                android:theme="@style/ResultActionBarProggressBarColor" />
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/info_layout"
+        android:layout_below="@id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lb_last_finding_routes"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/from_title"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/from"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/from"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/from_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liptovsky Mikulas"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:id="@+id/to_title"
+            android:layout_below="@+id/from_title"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/to"
+            android:layout_below="@+id/from_title"
+            android:layout_toRightOf="@+id/to_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bratislava"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:id="@+id/day_title"
+            android:layout_below="@+id/from_title"
+            android:layout_toLeftOf="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/day"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_below="@+id/from_title"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15/07/2016"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/no_routes_founded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/info_layout"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/img_missed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_layout"
+            android:layout_marginTop="20dp"
+            android:text="@string/ups"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_layout"
+            android:layout_marginTop="3dp"
+            android:text="@string/apology"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:theme="@style/ResultsProggressBarColor"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/info_layout"/>
+
+</RelativeLayout>

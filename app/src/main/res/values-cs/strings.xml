@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Žlutý odchytávač</string>
+    <string name="app_name1">- ŽLUTÝ ODCHYTÁVAČ -</string>
+    <string name="saved_routes">- ULOŽENÉ TRASY -</string>
+    <string name="founded_routes">- NALEZENÉ TRASTY -</string>
+
+    <string name="travel_from">Cestuji z:</string>
+    <string name="travel_to">Cestuji do:</string>
+    <string name="enter_target">Zadej místo příjezdu...</string>
+    <string name="enter_start_point">Zadej místo odjezdu...</string>
+    <string name="date_of_road">Datum cesty:</string>
+    <string name="currency">Měna:</string>
+    <string name="tarif">Tarifa:</string>
+    <string name="save">ULOŽIŤ \nSPOJ</string>
+    <string name="already_saved_lb">ULOŽENÉ</string>
+    <string name="buy">KÚPIŤ</string>
+    <string name="delete">VYMAZAŤ</string>
+    <string name="lower_price">Cena od</string>
+    <string name="from">Z:</string>
+    <string name="to">DO:</string>
+    <string name="day">DEN:</string>
+    <string name="saved_routes_menu">Uložené Trasy</string>
+    <string name="loading">Stahovaní dat!</string>
+    <string name="error_network">Ups...Vyskytl se problém!</string>
+    <string name="no_route_selected">Nevybrali Jste stanici příchodu nebo odchodu!</string>
+    <string name="no_routes">Nebyly nalezeny žádné spoje!</string>
+    <!--vysklonovane vonlny listok-->
+    <string name="empty_seats1">voľný lístek</string>
+    <string name="empty_seats2">voľné lístky</string>
+    <string name="empty_seats3">voľných lístků</string>
+    <string name="no_route_founded">Nebyly nalezeny žádné spoje!</string>
+    <string name="saved">Uložené!</string>
+    <string name="already_saved">Spoj byl již uložen!</string>
+    <string name="lb_last_finding_routes">POSLEDNÍ HLEDANÉ SPOJE</string>
+    <string name="no_last_route">Zatím Jste nevyhledali žádný spoj!</string>
+    <string name="use">POUŽÍT</string>
+    <string name="ticket">- LÍSTEK JE K DISPOZICI -</string>
+    <string name="buy_ticket">KOUPIT LÍSTEK</string>
+    <string name="not_now">NYNÍ NE</string>
+    <string name="route">TRASA</string>
+    <string name="when">KEDY</string>
+    <string name="empty_seats_ticket">VOLNÁ MÍSTA</string>
+    <string name="sold_out">Vyprodáno</string>
+    <string name="non_exist_route">Spoj neexistuje!</string>
+    <!--vysklonovane slovo miesto-->
+    <string name="seat1">místo</string>
+    <string name="seat2">místa</string>
+    <string name="seat3">míst</string>
+    <string name="ups">Uups... Zmeškal si!</string>
+    <string name="apology">Je nám ľúto ale žiadny spoj sme dnes nenašli.</string>
+    <string name="lb_please_select_stations">Zvolte stanici, prosím!</string>
+    <string name="lb_about">- O APLIKACI -</string>
+    <string name="contact_us">KONTAKTUJTE NÁS</string>
+    <string name="credits_android">Android:</string>
+    <string name="credits_creators">TVŮRCI</string>
+    <string name="credits_errors">V případě, že najdete chybu, máte návrh na vylepšení nebo máte zájem o vyvoj aplikaci, budeme rádi pokud nás kontaktujete.</string>
+    <string name="credits_gojo">Gorazd Ratulovský</string>
+    <string name="credits_how_to_use">JAK MĚ POUŽÍVAT</string>
+    <string name="credits_idea_design">Idea/Design:</string>
+    <string name="credits_ios_backend">iOS/back-end:</string>
+    <string name="credits_marek">Marek Marušin</string>
+    <string name="credits_patrik">Patrik Dendis</string>
+    <string name="credits_how_to_use_text">Často se stává,že některé spoje přepravců RegioJet bývají vyprodané. Tato aplikace plní jednoduchý úkol, odchytí vám lístek.\n\n Stačí do aplikace zadat trasu a termín,kdy plánujete cestovat. Po zadání trasy vám aplikace vyhledá všechny možné spojení. Preferovaný spoj/e si můžete jednoduše uložit kliknutím na tlačítko "uložit". Následně je už všechno v rukách aplikace. Pokud je vlak vyprodaný, aplikace vám pošle notifikaci vždy, když se uvolní lístek na vámi preferovaný spoj/e. Pokud spoj není vyprodaný, aplikace vás naopak prostřednictvím notifikace upozorní na to, že počet dostupných lístků klesl pod určenou hranici.\n\nAplikace neplní funkci rezervaci lístků, má jen informační charakter a vznikla nezávisle od společnosti RegioJet. Věříme, že vám bude aplikace nápomocná.</string>
+    <string name="credits_version">Verzia:</string>
+    <string name="credits_not_available">K dispozícii v ďalšej aktualizácii!</string>
+
+    <string name="lb_soldout">Vyprodáno!</string>
+    <string name="unavailable_ticket">BOHOŽEL, LÍSTEK NENÍ DOSTUPNÝ</string>
+
+</resources>
